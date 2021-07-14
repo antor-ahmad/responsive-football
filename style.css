@@ -47,6 +47,11 @@ In this part there are all css style related to players detail
 .display{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 40px;
+}
+
+.section-02{
+     margin-top: 70px;
 }
 
 .playerImage{
@@ -67,6 +72,7 @@ In this part there are all css style related to players detail
     margin-left: 40px;
     width: 330px;
     height: 474px;
+    grid-row-gap: 40px;
 }
 
 .biography{
@@ -91,7 +97,7 @@ In this sector there are all css styles about the tommorow
 }
 
 .vs{
-    font-size: larger;
+    font-size: 50px;
     padding-left: 65px;
 }
 
@@ -122,10 +128,43 @@ In this sector there are css styles related to footer
 .sites{
     padding-left: 630px;
 }
+
 /*-------------Media Query--------------------- */
 @media only screen and (max-width:688px) {
     .section-01{
         grid-template-columns: repeat(1,1fr);
     }
-    
+    .kickshot{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .display{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .playersBox{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .abouttommoro{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .brazil{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .vs{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .argentina{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .about-notified{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .football-logo{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sites{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .copyright{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
