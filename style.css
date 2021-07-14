@@ -1,0 +1,131 @@
+/*--------------- Fonts-------------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*-------------------------------------------------
+In this part there are all things related to banner
+--------------------------------------------------- */
+.banner{
+    display: flex;
+    background-color: rgb(100, 34, 167);
+}
+
+.banner img{
+    width: 556.01px;
+    height: 438px;
+    padding-top: 153px;
+    padding-bottom: 86px;
+    padding-left: 102px;
+}
+
+i{
+    padding-left: 5px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700px;
+    color: white;
+    line-height: 35px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding:10px 24px 10px 24px;
+}
+
+.copa-america{
+    padding-top: 207px;
+    padding-bottom: 240px;
+    padding-left: 156px;
+}
+/* ------------------------------------------------------
+In this part there are all css style related to players detail
+--------------------------------------------------------- */
+.display{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.playerImage{
+    width: 100%;
+    height: 60%;
+}
+
+.playersHeading{
+    color: black;
+    line-height: 10px;
+}
+
+.playersBox{
+    border: 20px solid white;
+    border-radius: 30px;
+    box-shadow: 1px 1px 30px rgb(206, 206, 206);
+    margin-right: 40px;
+    margin-left: 40px;
+    width: 330px;
+    height: 474px;
+}
+
+.biography{
+    color: gray;
+}
+/* -------------------------------------------------------
+In this sector there are all css styles about the tommorow
+ match thing .
+ ---------------------------------------------------------*/
+.tommorow-match{
+    text-align: center;
+}
+
+.section-04{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 105px;
+}
+
+.brazil img{
+    width: 300px;
+}
+
+.vs{
+    font-size: larger;
+    padding-left: 65px;
+}
+
+.argentina img{
+ width: 300px;
+}
+/*---------------------------------------------
+ CSS styles related to about notified sector
+ ---------------------------------------------- */
+.about-notified{
+    padding-top: 30px;
+    text-align: center;
+}
+/* ----------------------------------------------------
+In this sector there are css styles related to footer 
+-------------------------------------------------------*/
+.football-logo img{
+    padding-top: 30px;
+    padding-left: 410px;
+    width: 483px;
+    height: 110px;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.sites{
+    padding-left: 630px;
+}
+/*-------------Media Query--------------------- */
+@media only screen and (max-width:688px) {
+    .section-01{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
